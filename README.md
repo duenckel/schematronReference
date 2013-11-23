@@ -22,7 +22,7 @@ Please help to translate the schematronReference in other languages:
 Repo Organisation
 ===================
 * schematronReference > The repo root directory 
-** built > The built directory: All version of the schematronReference
+ * built > The built directory: All version of the schematronReference
 *** [schematronReference-{VERSION}.zip]+ > A Version of the schematronReference
 ** src > The source directory: Take a look and contribute to the workingdraft of the next schematronReference version
 *** dita > The working directory: contribute by helping to translate the reference in other languages
