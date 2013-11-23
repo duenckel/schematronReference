@@ -10,14 +10,14 @@ Please download the latest built in your favorite file format to read the refere
 Contribute
 ===================
 Please help to translate the schematronReference in other languages:
-# Create a copy of the DITA reference file you want to translate (for example "iso-schematron-title-element-en.dita" to translate the description of the <sch:title> element)
-# Change the filename to {ORIGINAL FILENAME}-{COUNTY CODE OF YOUR TRANSLATION}.dita (for example to "iso-schematron-title-element-ru.dita", if you want to translate the original document into russian)
-# Change the @xml:language attribute value at the reference element to your country code (for example <reference id="iso-schematron-title-element" xml:language="ru">, if you want to translate the original document into russian)
-# Replace the existing text with your translation of this text
-# When your translation is finished, open the type-chapter.ditamap, element-chapter.ditamap or attribute-chapter.ditamap document where the original document you have translated is referenced
-# Insert a new <topicref> Element in this ditamap document after the <topicref> element of the original document you have translated
-# Add the @href attribute on the new <reference> element and insert your documents name as the attribute value
-# Commit your changes
+* Create a copy of the DITA reference file you want to translate (for example "iso-schematron-title-element-en.dita" to translate the description of the <sch:title> element)
+* Change the filename to {ORIGINAL FILENAME}-{COUNTY CODE OF YOUR TRANSLATION}.dita (for example to "iso-schematron-title-element-ru.dita", if you want to translate the original document into russian)
+* Change the @xml:language attribute value at the reference element to your country code (for example <reference id="iso-schematron-title-element" xml:language="ru">, if you want to translate the original document into russian)
+* Replace the existing text with your translation of this text
+* When your translation is finished, open the type-chapter.ditamap, element-chapter.ditamap or attribute-chapter.ditamap document where the original document you have translated is referenced
+* Insert a new <topicref> Element in this ditamap document after the <topicref> element of the original document you have translated
+* Add the @href attribute on the new <reference> element and insert your documents name as the attribute value
+* Commit your changes
 
 Repo Organisation
 ===================
